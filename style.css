@@ -11,17 +11,17 @@ body {
 
 .container {
   background-color: #000;
-  width: 60%;
+  width: 100%;
   height: 100vh;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: baseline;
   /* border: 3px solid red; */
 }
 
 .time {
-  font-size: 10vw;
+  font-size: 9vw;
   font-family: "Open Sans", sans-serif;
   color: #fff;
   align-self: flex-end;
