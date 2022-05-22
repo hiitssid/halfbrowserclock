@@ -21,7 +21,7 @@ body {
 }
 
 .time {
-  font-size: 9vw;
+  font-size: 10rem;
   font-family: "Open Sans", sans-serif;
   color: #fff;
   align-self: flex-end;
