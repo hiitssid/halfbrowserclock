@@ -1,4 +1,4 @@
-import NoSleep from "NoSleep.min.js";
+import { NoSleep } from "./NoSleep.min.js";
 
 var noSleep = new NoSleep();
 // Enable wake lock.
