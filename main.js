@@ -17,3 +17,27 @@ function checkTime(i) {
   } // add zero in front of numbers < 10
   return i;
 }
+//------------NOSLEEP-----------------------
+var noSleep = new NoSleep();
+
+var wakeLockEnabled = false;
+var toggleEl = document.querySelector("#toggle");
+toggleEl.addEventListener(
+  "click",
+  function () {
+    if (!wakeLockEnabled) {
+      noSleep.enable(); // keep the screen on!
+      wakeLockEnabled = true;
+      toggleEl.innerText = "Enabled";
+      // document.body.style.backgroundColor = "green";
+      toggleEl.classList.toggle("hidden");
+    } else {
+      noSleep.disable(); // let the screen turn off.
+      wakeLockEnabled = false;
+      toggleEl.innerText = "Disabled";
+      // document.body.style.backgroundColor = "";
+    }
+  },
+  false
+);
+//--------------------------------------

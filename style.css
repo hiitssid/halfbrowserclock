@@ -11,18 +11,32 @@ body {
 
 .container {
   background-color: #000;
-  width: 100%;
+  width: 60%;
   height: 100vh;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: baseline;
+  /* border: 3px solid red; */
 }
 
 .time {
-  font-size: 10rem;
+  font-size: 9rem;
   font-family: "Open Sans", sans-serif;
   color: #fff;
   align-self: flex-end;
   flex-shrink: 3;
+  /* border: 3px solid red; */
+}
+.sleeptoggle {
+  align-self: flex-end;
+  padding: 0.5rem;
+  background-color: rgb(31, 29, 29);
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+  border: 1px solid rgb(31, 29, 29);
+}
+.hidden {
+  display: none;
 }
