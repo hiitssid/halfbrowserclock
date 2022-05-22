@@ -21,7 +21,7 @@ body {
 }
 
 .time {
-  font-size: 9rem;
+  font-size: 10vw;
   font-family: "Open Sans", sans-serif;
   color: #fff;
   align-self: flex-end;
@@ -39,4 +39,5 @@ body {
 }
 .hidden {
   display: none;
+  /* align-self: flex-start; */
 }
